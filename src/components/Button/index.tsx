@@ -27,13 +27,13 @@ export function Button(props: ButtonProps) {
       buttonRef.current.style.boxShadow = "rgb(123, 123, 123) 5px 5px 0.3em"
       if (props.setStyle) {
         if (buttonRef.current.name === "Não") {
-          if (buttonRef.current.style.left === "-400px") {
+          if (buttonRef.current.style.left === "-200px") {
             buttonRef.current.style.left = "0px"
             // props.setPositionSim("0px")
             props.setStyle({ ...props.style, left: "0px" })
           } else {
-            buttonRef.current.style.left = "-400px"
-            props.setStyle({ ...props.style, left: "400px" })
+            buttonRef.current.style.left = "-200px"
+            props.setStyle({ ...props.style, left: "200px" })
             // props.setPositionSim("400px")
           }
         } else {
