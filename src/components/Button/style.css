@@ -1,0 +1,24 @@
+.botao{
+    width: 200px;
+    height: 90px;
+
+    background: linear-gradient(-30deg, rgb(143, 84, 239), rgb(214, 174, 235));
+
+    border-radius: 100px;
+
+    border: none;
+    color: white;
+    position: relative;
+
+    cursor: pointer;
+
+    font-size: 26px ;
+    font-family: 'Roboto', sans-serif;
+
+    transition-property: all;
+    transition-duration: 0.3s;    
+}
+
+/* div{
+    /* background-color: aquamarine; 
+} */
